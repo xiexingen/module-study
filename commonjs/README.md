@@ -1,4 +1,4 @@
-# commonjs  模块化原理
+# CommonJS  模块化原理
 
 针对 src/mian.js 进行解析,编译后的伪代码如下
 
