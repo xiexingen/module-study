@@ -1,0 +1,12 @@
+{
+  "name": "module-ast-lower-first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.0"
+  }
+}

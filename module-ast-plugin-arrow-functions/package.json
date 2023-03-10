@@ -1,0 +1,16 @@
+{
+  "name": "module-ast-plugin-arrow-functions",
+  "version": "1.0.0",
+  "description": "实现一个将箭头函数编译成普通函数的插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0"
+  }
+}
