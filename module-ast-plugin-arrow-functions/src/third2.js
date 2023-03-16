@@ -1,5 +1,5 @@
 /**
- * 使用 @babel/core babel-plugin-transform-es2015-arrow-functions 进行简单箭头函数的转换案例
+ * 使用 @babel/core babel-plugin-transform-es2015-arrow-functions 进行含有this的箭头函数进行转换的案例
  */
 
 // babel核心模块
@@ -8,7 +8,10 @@ const core = require("@babel/core");
 let arrowFunctionPlugin = require("babel-plugin-transform-es2015-arrow-functions");
 
 // 转换前的代码
-const sourceCode = `const sum=(a,b)=>{ return a*b; }`;
+const sourceCode = `const sum=(a,b)=>{
+  console.log(this);
+  return a*b;
+}`;
 // 通过插件对箭头函数进行转换
 const targetSource = core.transform(sourceCode, {
   //使用插件
