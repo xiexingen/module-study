@@ -1,5 +1,5 @@
 {
-  "name": "module-ast-console-log",
+  "name": "module-ast-plugin-logger-uploader",
   "version": "1.0.0",
   "description": "",
   "main": "src/main.js",
@@ -11,6 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.21.3"
-  },
-  "devDependencies": {}
+  }
 }

@@ -5,7 +5,6 @@
 // babel核心模块
 const core = require("@babel/core");
 // 转换箭头函数插件,我们将之前的插件注释掉，自己实现插件部分
-// let arrowFunctionPlugin = require("babel-plugin-transform-es2015-arrow-functions");
 
 //用来生成或者判断节点的AST语法树的节点
 const types = require('@babel/types');
@@ -57,5 +56,8 @@ const targetSource = core.transform(sourceCode, {
 console.log(`输入:\r\n${sourceCode}`)
 /**
  * 此处会输出
+  const logPlus = log => {
+    console.log(log, "2:2", "../main.js");
+  };
  */
 console.log(`输出:\r\n${targetSource.code}`);

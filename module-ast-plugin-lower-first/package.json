@@ -2,7 +2,7 @@
   "name": "module-ast-lower-first",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/main.js",
   "keywords": [],
   "author": "",
   "license": "ISC",

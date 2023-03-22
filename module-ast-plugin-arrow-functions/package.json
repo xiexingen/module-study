@@ -2,7 +2,7 @@
   "name": "module-ast-plugin-arrow-functions",
   "version": "1.0.0",
   "description": "实现一个将箭头函数编译成普通函数的插件",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
