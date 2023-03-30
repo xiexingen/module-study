@@ -46,7 +46,7 @@ const autoImportPlugin = {
           //   types.stringLiteral("logger")
           // )
           // 使用模板写法替换掉上面的写法
-          template.statement(`import ${loggerId} from 'logger'`)()
+          template.statement(`import ${loggerId} from 'logger'`)
         );
       }
 
