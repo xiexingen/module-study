@@ -14,4 +14,4 @@ CLoader.pitch = function () {
   console.log("c-loader 的 pitch 阶段");
 };
 
-module.exports = ALoader;
+module.exports = CLoader;
