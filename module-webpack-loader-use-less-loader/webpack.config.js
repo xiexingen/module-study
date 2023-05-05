@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin=require('html-webpack-plugin');
 
 // CommonJS 的写法
 module.exports = {
@@ -25,4 +26,11 @@ module.exports = {
       }
     ]
   },
+  // 配置 html plugin
+  plugins:[
+    new HtmlWebpackPlugin({
+      template:'./src/index.html',
+      filename:'index.html'
+    })
+  ]
 }
